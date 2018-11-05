@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.hoaiduc.quanlychitieu.view.wallet.WalletActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarcategory"
+            android:background="@color/green"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="@string/wallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/wallet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.example.hoaiduc.quanlychitieu.CustomView.ClearEditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/wallet"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"
+            android:hint="@string/namewallet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:text="@string/money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:paddingLeft="30dp"
+        android:text="@string/tiendu"
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+   <com.example.hoaiduc.quanlychitieu.CustomView.CurrencyEditText
+       android:layout_marginTop="10dp"
+       android:id="@+id/money"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       />
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/bgLogo"
+        android:text="xong"
+        android:textColor="@color/whilte" />
+
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

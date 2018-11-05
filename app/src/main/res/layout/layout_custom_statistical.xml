@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/smonth"
+        android:text="Tháng 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/syear"
+        android:text="2018"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/smonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/symbol"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:layout_alignParentRight="true"
+        android:text="ĐĐ"
+        android:layout_marginRight="10dp"
+        android:textColor="#ff00"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_toLeftOf="@+id/symbol"
+        android:id="@+id/smoney"
+        android:textColor="#ff00"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="10,000,000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_below="@+id/syear"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+</RelativeLayout>

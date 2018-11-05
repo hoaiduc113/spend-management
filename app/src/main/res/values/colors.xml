@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gray">#808080</color>
+    <color name="bgLogo">#f67122</color>
+    <color name="colorgoogle">#da4835</color>
+    <color name="colorfacebook">#4a6ea9</color>
+    <color name="whilte">#FFFFFF</color>
+    <color name="blak">#000</color>
+    <color name="green">#05ea0c</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="brown">#a0522d</color>
+    <color name="blue">#1de8f2</color>
+</resources>

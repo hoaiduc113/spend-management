@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="titlecurrency">chọn đơn vị tiền tệ mặc định</string>
+    <string name="defaultText">  chọn tiền tệ  </string>
+    <string name="btncontinue">  tiếp tục </string>
+    <string name="loginfailed">Đăng nhập thất bại</string>
+    <string name="login">Đăng nhập</string>
+    <string name="wallet">Đầu tiên,Hãy tạo Ví</string>
+    <string name="namewallet">tên ví của bạn</string>
+    <string name="money">số dư</string>
+    <string name="tiendu">bạn có bao nhiêu tiền trong ví</string>
+    <string name="tien">0</string>
+    <string name="number_zero">0</string>
+    <string name="number_one">1</string>
+    <string name="number_two">2</string>
+    <string name="number_three">3</string>
+    <string name="number_four">4</string>
+    <string name="number_five">5</string>
+    <string name="number_six">6</string>
+    <string name="number_seven">7</string>
+    <string name="number_eight">8</string>
+    <string name="number_nine">9</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_backspace">Back</string>
+    <string name="title_activity_trangchu">Trangchu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="tengiaodich">chọn loại giao dịch</string>
+    <string name="note">ghi chú</string>
+    <string name="today">Hôm nay</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">1076500835821411</string>
+    <string name="fb_login_protocol_scheme">fb1076500835821411</string>
+    <!--<string name="default_web_client_id">548434557963-uugo3919ichdi3p9qcnrqnc5nl51a6ld.apps.googleusercontent.com</string>-->
+</resources>

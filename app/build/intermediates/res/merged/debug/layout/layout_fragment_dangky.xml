@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="cần điền tất cả các danh mục"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_ehotendangky"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <com.example.hoaiduc.quanlychitieu.CustomView.ClearEditText
+
+                android:hint="Họ Tên Đầy Đủ"
+                android:id="@+id/exthoten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <com.example.hoaiduc.quanlychitieu.CustomView.ClearEditText
+                android:hint="Email"
+                android:id="@+id/extemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <com.example.hoaiduc.quanlychitieu.CustomView.PassWordEditText
+                android:hint="Mật Khẩu"
+                android:id="@+id/extpassword"
+                app:usevalidate="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+        <TextView
+            android:text="mật khẩu 6 ký tự và 1 ký tự hoa"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content" />
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_nhaplaipassword"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+            <com.example.hoaiduc.quanlychitieu.CustomView.PassWordEditText
+                android:hint="Nhập Lại Mật Khẩu"
+                android:id="@+id/extnhaplaipassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:id="@+id/btndangdy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/bgLogo"
+            android:text="Đăng ký"
+            android:textColor="@color/whilte" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

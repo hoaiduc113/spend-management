@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.hoaiduc.quanlychitieu.view.category.CategoryActivity">
+    <ExpandableListView
+        android:id="@+id/epmenu"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@color/gray"
+        android:dividerHeight="1dp"
+        android:choiceMode="singleChoice"
+        android:groupIndicator="@android:color/transparent"
+        >
+    </ExpandableListView>
+</LinearLayout>
+

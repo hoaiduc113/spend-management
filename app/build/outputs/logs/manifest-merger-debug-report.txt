@@ -1,0 +1,351 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:2:1-60:12
+	package
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:3:5-48
+		INJECTED from F:\quanlychitieu\app\src\main\AndroidManifest.xml
+		INJECTED from F:\quanlychitieu\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\quanlychitieu\app\src\main\AndroidManifest.xml
+		INJECTED from F:\quanlychitieu\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from F:\quanlychitieu\app\src\main\AndroidManifest.xml
+		INJECTED from F:\quanlychitieu\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\hoaiduc\.android\build-cache\2c14f2eebc392eecd1a080f948872ad00cd0e7f8\output\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\hoaiduc\.android\build-cache\2c14f2eebc392eecd1a080f948872ad00cd0e7f8\output\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:6:22-76
+application
+ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:8:5-58:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\hoaiduc\.android\build-cache\9b8124b4a32da78995c0115fdde7d87e00e2f84e\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\hoaiduc\.android\build-cache\5892d599f3335c65896024e5776eea0036c8fda5\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\hoaiduc\.android\build-cache\db94daf312f5412861e95e58147479ccba34d7a1\output\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\hoaiduc\.android\build-cache\01528f5f342f276e240ea553095683429fcf3dc1\output\AndroidManifest.xml:22:5-37:19
+MERGED from [com.github.dmytrodanylyk.circular-progress-button:library:1.1.3] C:\Users\hoaiduc\.android\build-cache\f2a55f2300979701af1f1ef9a1b60033d62b66ff\output\AndroidManifest.xml:12:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.7.0] C:\Users\hoaiduc\.android\build-cache\68d35e5397aecb60bd3c802d856072122b16721d\output\AndroidManifest.xml:28:5-20
+MERGED from [com.github.badoualy:datepicker-timeline:c6dcd05737] C:\Users\hoaiduc\.android\build-cache\2397ed5e0cc1dffd429b628edb783bb96f4ae5a4\output\AndroidManifest.xml:11:5-47
+MERGED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\hoaiduc\.android\build-cache\b606e45a01eb6baeb28cfda7e1740840e473333d\output\AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-core:15.0.0] C:\Users\hoaiduc\.android\build-cache\70a57b2d7b04de2bbac33f53760b16c7c751df1d\output\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\hoaiduc\.android\build-cache\2c14f2eebc392eecd1a080f948872ad00cd0e7f8\output\AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\hoaiduc\.android\build-cache\d886f86ba006a9808e4041cb273d4e921d017423\output\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\hoaiduc\.android\build-cache\dbb661023b8ff2fe5688af5f6821757a3b603756\output\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\hoaiduc\.android\build-cache\ad85de0f14ea6c676803805b834a9c95c5b337e2\output\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] C:\Users\hoaiduc\.android\build-cache\ca4f36617f569d11df91298301c88dadb921f582\output\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\hoaiduc\.android\build-cache\7f12589156ae5a69278570e4c1245a98937d5c74\output\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:15.0.1] C:\Users\hoaiduc\.android\build-cache\c6ff22d8b9e8e8ee2c85212a9071f04f3aa8ba5b\output\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\hoaiduc\.android\build-cache\9567bf7a88c65098f2a532d8b1ea3f0201af43a0\output\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\hoaiduc\.android\build-cache\ae14a09397723cc85fd783d5fe2e113faf341d0d\output\AndroidManifest.xml:22:5-26:19
+	android:label
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:11:9-42
+	android:supportsRtl
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:13:9-35
+	android:roundIcon
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:12:9-54
+	android:allowBackup
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:10:9-43
+	android:theme
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:14:9-40
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:15:9-16:54
+	android:value
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:16:13-52
+	android:name
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:15:20-65
+activity#com.facebook.FacebookActivity
+ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:18:9-21:48
+	android:label
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:21:13-45
+	android:configChanges
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:19:13-96
+	android:theme
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:20:13-72
+	android:name
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:18:19-63
+activity#com.example.hoaiduc.quanlychitieu.DangNhapActivity
+ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:22:9-33:20
+	android:screenOrientation
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:24:13-49
+	android:name
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:23:13-45
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:25:13-32:29
+action#android.intent.action.MAIN
+ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:31:27-74
+activity#com.example.hoaiduc.quanlychitieu.view.ListCurrency.ListCurrencyActivity
+ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:34:9-36:15
+	android:label
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:35:19-47
+	android:name
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:34:19-73
+activity#com.example.hoaiduc.quanlychitieu.view.wallet.WalletActivity
+ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:37:9-39:15
+	android:label
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:38:19-37
+	android:name
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:37:19-61
+activity#com.example.hoaiduc.quanlychitieu.view.TrangChu.TrangChuActivity
+ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:40:9-42:41
+	android:label
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:42:13-38
+	android:name
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:41:13-59
+activity#com.example.hoaiduc.quanlychitieu.view.category.CategoryActivity
+ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:43:9-46:41
+	android:label
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:46:13-38
+	android:name
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:44:13-59
+activity#com.example.hoaiduc.quanlychitieu.view.GiaoDichActivity.TransactionActivity
+ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:47:9-50:48
+	android:label
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:49:13-43
+	android:value
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:50:13-45
+	android:name
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:48:13-70
+activity#com.example.hoaiduc.quanlychitieu.view.wallet.DisplayWallet
+ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:51:9-53:39
+	android:label
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:52:13-54
+activity#com.example.hoaiduc.quanlychitieu.view.wallet.AddWalletActivity
+ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:54:9-56:39
+	android:label
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:56:13-36
+	android:name
+		ADDED from F:\quanlychitieu\app\src\main\AndroidManifest.xml:55:13-58
+uses-sdk
+INJECTED from F:\quanlychitieu\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\hoaiduc\.android\build-cache\985012aeea9bc69cc695b592d2464bc59af57f86\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\hoaiduc\.android\build-cache\9b8124b4a32da78995c0115fdde7d87e00e2f84e\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\hoaiduc\.android\build-cache\5892d599f3335c65896024e5776eea0036c8fda5\output\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\hoaiduc\.android\build-cache\db94daf312f5412861e95e58147479ccba34d7a1\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:27.0.2] C:\Users\hoaiduc\.android\build-cache\1dceb7a304c4dfca752f7b6eebef53c4a240325f\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\hoaiduc\.android\build-cache\c6e860b551fa35a7fbd38c843da8116b92f740af\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\hoaiduc\.android\build-cache\01528f5f342f276e240ea553095683429fcf3dc1\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] C:\Users\hoaiduc\.android\build-cache\c1e6f91ed592cd0a786a79e700b44443ed9b6c33\output\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.0] C:\Users\hoaiduc\.android\build-cache\7a5ae41ff93ca992fbffa0d87c0243226959451e\output\AndroidManifest.xml:5:5-44
+MERGED from [com.github.dmytrodanylyk.circular-progress-button:library:1.1.3] C:\Users\hoaiduc\.android\build-cache\f2a55f2300979701af1f1ef9a1b60033d62b66ff\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.7.0] C:\Users\hoaiduc\.android\build-cache\68d35e5397aecb60bd3c802d856072122b16721d\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.github.badoualy:datepicker-timeline:c6dcd05737] C:\Users\hoaiduc\.android\build-cache\2397ed5e0cc1dffd429b628edb783bb96f4ae5a4\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\hoaiduc\.android\build-cache\60aa4ce3a20776659c8150567fa15fe2b4a861b6\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\hoaiduc\.android\build-cache\d9d122bb3b971dc674128255b56215bc6c7b46ba\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\hoaiduc\.android\build-cache\8877f4abce02e9df49ecbb5393a9bc86acda2b72\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\hoaiduc\.android\build-cache\14629a76c42f29594e8abc7abccaf9a1308517e7\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\hoaiduc\.android\build-cache\b606e45a01eb6baeb28cfda7e1740840e473333d\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\hoaiduc\.android\build-cache\3bc1ff582b85a384499ed2128a2471e6e1d7f9ea\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:15.0.0] C:\Users\hoaiduc\.android\build-cache\70a57b2d7b04de2bbac33f53760b16c7c751df1d\output\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\hoaiduc\.android\build-cache\2c14f2eebc392eecd1a080f948872ad00cd0e7f8\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\hoaiduc\.android\build-cache\d886f86ba006a9808e4041cb273d4e921d017423\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\hoaiduc\.android\build-cache\dbb661023b8ff2fe5688af5f6821757a3b603756\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\hoaiduc\.android\build-cache\ad85de0f14ea6c676803805b834a9c95c5b337e2\output\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] C:\Users\hoaiduc\.android\build-cache\ca4f36617f569d11df91298301c88dadb921f582\output\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\hoaiduc\.android\build-cache\7f12589156ae5a69278570e4c1245a98937d5c74\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:15.0.1] C:\Users\hoaiduc\.android\build-cache\c6ff22d8b9e8e8ee2c85212a9071f04f3aa8ba5b\output\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\hoaiduc\.android\build-cache\9567bf7a88c65098f2a532d8b1ea3f0201af43a0\output\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\hoaiduc\.android\build-cache\ae14a09397723cc85fd783d5fe2e113faf341d0d\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\hoaiduc\.android\build-cache\209ffcb1c34c962ba775070f9ad6fdb0f3d4a36b\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\hoaiduc\.android\build-cache\b4db1b96b4c86c1b3e0c580aaad1e73bf62557e5\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\hoaiduc\.android\build-cache\db8fee3c2af87ecf4ed1f489d56cf35e650558c5\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\hoaiduc\.android\build-cache\0c71f4c414eda03f68487250e4e85a09084c7ce1\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\hoaiduc\.android\build-cache\f6048f87589186de11d8546fcc22553a79beca21\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\hoaiduc\.android\build-cache\24b5ba1167d5b025ce2cda1ec750f634cc1bb467\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\hoaiduc\.android\build-cache\5ddf32f5d58eed04f3ceaf0acc744ccc625bcd84\output\AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from F:\quanlychitieu\app\src\main\AndroidManifest.xml
+		INJECTED from F:\quanlychitieu\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\quanlychitieu\app\src\main\AndroidManifest.xml
+		INJECTED from F:\quanlychitieu\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\hoaiduc\.android\build-cache\01528f5f342f276e240ea553095683429fcf3dc1\output\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\hoaiduc\.android\build-cache\01528f5f342f276e240ea553095683429fcf3dc1\output\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\hoaiduc\.android\build-cache\01528f5f342f276e240ea553095683429fcf3dc1\output\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\hoaiduc\.android\build-cache\01528f5f342f276e240ea553095683429fcf3dc1\output\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\hoaiduc\.android\build-cache\01528f5f342f276e240ea553095683429fcf3dc1\output\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\hoaiduc\.android\build-cache\01528f5f342f276e240ea553095683429fcf3dc1\output\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\hoaiduc\.android\build-cache\01528f5f342f276e240ea553095683429fcf3dc1\output\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\hoaiduc\.android\build-cache\01528f5f342f276e240ea553095683429fcf3dc1\output\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\hoaiduc\.android\build-cache\01528f5f342f276e240ea553095683429fcf3dc1\output\AndroidManifest.xml:34:13-89
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\hoaiduc\.android\build-cache\b606e45a01eb6baeb28cfda7e1740840e473333d\output\AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\hoaiduc\.android\build-cache\b606e45a01eb6baeb28cfda7e1740840e473333d\output\AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\hoaiduc\.android\build-cache\b606e45a01eb6baeb28cfda7e1740840e473333d\output\AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\hoaiduc\.android\build-cache\b606e45a01eb6baeb28cfda7e1740840e473333d\output\AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\hoaiduc\.android\build-cache\b606e45a01eb6baeb28cfda7e1740840e473333d\output\AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\hoaiduc\.android\build-cache\b606e45a01eb6baeb28cfda7e1740840e473333d\output\AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\hoaiduc\.android\build-cache\b606e45a01eb6baeb28cfda7e1740840e473333d\output\AndroidManifest.xml:24:13-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\hoaiduc\.android\build-cache\2c14f2eebc392eecd1a080f948872ad00cd0e7f8\output\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\hoaiduc\.android\build-cache\2c14f2eebc392eecd1a080f948872ad00cd0e7f8\output\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\hoaiduc\.android\build-cache\2c14f2eebc392eecd1a080f948872ad00cd0e7f8\output\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:34:9-42:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:35:13-100
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:44:9-47:40
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\hoaiduc\.android\build-cache\2c14f2eebc392eecd1a080f948872ad00cd0e7f8\output\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\hoaiduc\.android\build-cache\3380225b0b6245d2be05953ad8ca3a46965a964a\output\AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:32:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:35:18-89
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:42:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:45:13-49:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:46:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:57:13-77
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:59:13-61:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:59:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:60:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\hoaiduc\.android\build-cache\28b9f9278995b93273b729abe986383a12c3b53b\output\AndroidManifest.xml:60:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\hoaiduc\.android\build-cache\7f12589156ae5a69278570e4c1245a98937d5c74\output\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\hoaiduc\.android\build-cache\7f12589156ae5a69278570e4c1245a98937d5c74\output\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\hoaiduc\.android\build-cache\7f12589156ae5a69278570e4c1245a98937d5c74\output\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\hoaiduc\.android\build-cache\7f12589156ae5a69278570e4c1245a98937d5c74\output\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:15.0.1] C:\Users\hoaiduc\.android\build-cache\c6ff22d8b9e8e8ee2c85212a9071f04f3aa8ba5b\output\AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:15.0.1] C:\Users\hoaiduc\.android\build-cache\c6ff22d8b9e8e8ee2c85212a9071f04f3aa8ba5b\output\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:15.0.1] C:\Users\hoaiduc\.android\build-cache\c6ff22d8b9e8e8ee2c85212a9071f04f3aa8ba5b\output\AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:15.0.1] C:\Users\hoaiduc\.android\build-cache\c6ff22d8b9e8e8ee2c85212a9071f04f3aa8ba5b\output\AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:15.0.1] C:\Users\hoaiduc\.android\build-cache\c6ff22d8b9e8e8ee2c85212a9071f04f3aa8ba5b\output\AndroidManifest.xml:9:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\hoaiduc\.android\build-cache\ae14a09397723cc85fd783d5fe2e113faf341d0d\output\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\hoaiduc\.android\build-cache\ae14a09397723cc85fd783d5fe2e113faf341d0d\output\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\hoaiduc\.android\build-cache\ae14a09397723cc85fd783d5fe2e113faf341d0d\output\AndroidManifest.xml:24:13-58

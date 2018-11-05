@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">548434557963-6jjibr3i0bo76hkqoldljqhbkcoetfg8.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://quanlychitieu-e7a59.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">548434557963</string>
+    <string name="google_api_key" translatable="false">AIzaSyAr5ikrkSOzXxStMltfGEnQeBQRq7PlGXc</string>
+    <string name="google_app_id" translatable="false">1:548434557963:android:12131113b7b98b6d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAr5ikrkSOzXxStMltfGEnQeBQRq7PlGXc</string>
+    <string name="google_storage_bucket" translatable="false">quanlychitieu-e7a59.appspot.com</string>
+</resources>

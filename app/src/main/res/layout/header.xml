@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtoverview"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:text="Tổng quan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtdate"
+        android:paddingRight="20dp"
+        android:textSize="15dp"
+        android:text="2018/4/2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/totalmoney"
+        android:text="Tổng Tiền"
+        android:layout_below="@+id/txtoverview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+       android:text="Đ"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtdate"
+        android:id="@+id/symbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txttotalmoney"
+        android:text="100000"
+        android:layout_toLeftOf="@+id/symbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtdate"
+        />
+    <View
+        android:id="@+id/views"
+        android:background="#cfcfcd"
+        android:layout_below="@+id/totalmoney"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/moneyintput"
+        android:text="Tiền vào"
+        android:textSize="15dp"
+        android:layout_below="@+id/views"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+
+        android:id="@+id/symbol1"
+        android:paddingTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/views"
+        android:layout_alignRight="@+id/moneyintput"
+        android:text="0Đ"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="100000"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/symbol1"
+        android:id="@+id/numberInt"
+        android:layout_below="@+id/views"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+
+        android:id="@+id/moneyoutput"
+        android:text="Tiền ra"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/moneyintput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+
+        android:id="@+id/symbol2"
+        android:paddingTop="10dp"
+        android:text="0Đ"
+        android:layout_alignParentRight="true"
+        android:layout_alignRight="@+id/moneyoutput"
+        android:layout_below="@+id/numberInt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginRight="20dp"
+        android:text="2000000"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/symbol2"
+        android:layout_below="@+id/numberInt"
+        android:id="@+id/numberoutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <View
+        android:id="@+id/view"
+        android:paddingTop="10dp"
+        android:background="#cfcfcd"
+        android:layout_below="@+id/symbol2"
+        android:layout_alignParentRight="true"
+        android:layout_width="150dp"
+        android:layout_height="1dp"/>
+
+</RelativeLayout>

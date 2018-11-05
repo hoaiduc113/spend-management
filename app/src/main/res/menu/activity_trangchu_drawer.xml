@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="tổng quan">
+        <menu>
+        <item android:id="@+id/soluocs"
+              android:icon="@drawable/invention"
+              android:title="Sơ Lược"
+            />
+        <item
+            android:id="@+id/thunhap"
+            android:icon="@drawable/dollar"
+            android:title="Thu nhập" />
+        <item android:id="@+id/chiphi"
+            android:icon="@drawable/cash"
+            android:title="Chi phí"
+            />
+        <item android:id="@+id/thongke"
+            android:title="Thống kê"
+            android:icon="@drawable/piechart"
+            />
+        </menu>
+
+    </item>
+    <item android:title="người dùng">
+        <menu>
+            <item android:id="@+id/dangxuat"
+                android:title="Đăng xuất"
+                android:icon="@drawable/exit"
+                />
+        </menu>
+    </item>
+</menu>

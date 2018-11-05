@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\quanlychitieu\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_trangchu_drawer.xml",
+        "source": "F:\\quanlychitieu\\app\\src\\main\\res\\menu\\activity_trangchu_drawer.xml"
+    },
+    {
+        "merged": "F:\\quanlychitieu\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_giaodich.xml",
+        "source": "F:\\quanlychitieu\\app\\src\\main\\res\\menu\\menu_giaodich.xml"
+    },
+    {
+        "merged": "F:\\quanlychitieu\\app\\build\\intermediates\\res\\merged\\debug\\menu\\toolbar_inputmoney.xml",
+        "source": "F:\\quanlychitieu\\app\\src\\main\\res\\menu\\toolbar_inputmoney.xml"
+    },
+    {
+        "merged": "F:\\quanlychitieu\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_toolbar.xml",
+        "source": "F:\\quanlychitieu\\app\\src\\main\\res\\menu\\menu_toolbar.xml"
+    }
+]

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.hoaiduc.quanlychitieu.view.wallet.AddWalletActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarcategory"
+            android:background="@color/green"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"/>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v7.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/img"
+                android:src="@drawable/wallet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:hint="Tên Ví"
+                android:id="@+id/walletname"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+             <ImageView
+                 android:id="@+id/imgs"
+                 android:layout_marginTop="10dp"
+                 android:src="@drawable/invention"
+                 android:layout_below="@+id/img"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" />
+            <Spinner
+                android:id="@+id/currency"
+                android:textStyle="bold"
+                android:hint="Đơn Vị Tiền Tệ"
+                android:layout_below="@+id/walletname"
+                android:layout_toRightOf="@+id/imgs"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+            <ImageView
+                android:id="@+id/imgex"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/imgs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="40dp"
+                android:layout_below="@+id/currency"
+                android:text="số tiền hiện có"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <com.example.hoaiduc.quanlychitieu.CustomView.CurrencyEditText
+                android:inputType="numberDecimal"
+                android:layout_marginTop="30dp"
+                android:hint="0"
+                android:id="@+id/money"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/imgex"
+                android:layout_below="@+id/currency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

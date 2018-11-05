@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hoaiduc.quanlychitieu.view.ListCurrency.ListCurrencyActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarcategory"
+            android:background="@color/green"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <TextView
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="@string/titlecurrency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Spinner
+            android:layout_alignParentTop="true"
+            android:id="@+id/spinner"
+            android:drawSelectorOnTop="true"
+            android:prompt="@string/defaultText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            />
+        <Button
+            android:textColor="@color/whilte"
+            android:background="@color/bgLogo"
+            android:id="@+id/btncontinue"
+            android:text="@string/btncontinue"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

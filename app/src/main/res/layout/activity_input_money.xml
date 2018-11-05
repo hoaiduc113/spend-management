@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+   >
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarcategory"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <com.example.hoaiduc.quanlychitieu.CustomView.KeyboardView
+        android:id="@+id/money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.example.hoaiduc.quanlychitieu.CustomView.KeyboardView>
+</LinearLayout>
+    <!--android:hint="@string/tien"-->
